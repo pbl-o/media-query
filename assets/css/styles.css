@@ -1,4 +1,9 @@
 /*Arquitectura: First-Mobile*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 
 .container{
     display: grid;
@@ -49,6 +54,37 @@ align-items: center;
  color: #333;
 }
 
+.pag-container{
+ padding: 1.5rem 0 1rem 0;
+}
+
+.pag-box{
+
+}
+
+.pag-item{
+
+}
+
+.pag-item .arrow{
+
+}
+
+.pag-item .arrow .left{
+
+}
+
+.pag-item .arrow .right{
+
+}
+
+.pag-item .number{
+
+}
+
+
+
+
 
 footer{
   grid-area: footer;
@@ -56,7 +92,7 @@ footer{
 }
 
 .redes{
-    
+
 }
 
 @media (min-width: 576px){
