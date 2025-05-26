@@ -1,8 +1,17 @@
+/*importing google-font*/
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Danfo&family=Exile&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap');
+
+
+
 /*Arquitectura: First-Mobile*/
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+
+html{
+    font-family: "Share-tech", sans-serif;
 }
 /*template*/
 .container{
@@ -13,7 +22,7 @@
     'filters'
     'products'
     'footer';
-    height: 100vh;
+    height: 100dvh;
 
 }
 /*/NAV: MENÚ DE NAVEGACIÓN/*/
@@ -21,14 +30,14 @@
 nav{
 grid-area: nav;
 background-color: #00033b;
-padding: 1rem .5rem;
+padding: .6rem;
 }
 
 .nav-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1rem;
+    margin: 1rem;
     opacity: .95;
 }
 
@@ -39,7 +48,7 @@ padding: 1rem .5rem;
 }
 
 .nav-brand h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .nav-brand i {
@@ -119,7 +128,7 @@ align-items: center;
 /*Product Card*/
 .card img{
     width: 100%;
-    height: 25rem;
+    height: 18rem;
     object-fit: cover;
     object-position: center;
     border-radius: 15px;
@@ -242,12 +251,16 @@ opacity: .7;
 /*FOOTER:  PIE DE PÁGINA*/
 /*Footer - social media*/
 footer{
-  grid-area: footer;
-  background-color: #00031b; 
-  text-align: center; 
-  font-weight: 600;
-  padding: .5rem;
-  font-size: 1.5rem;
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00031b; 
+    text-align: center; 
+    font-weight: 600;
+    padding: .5rem;
+    font-size: 1.2rem;
 }
 
 footer p{
