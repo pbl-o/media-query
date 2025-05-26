@@ -274,6 +274,10 @@ footer p {
   opacity: 0.9;
 }
 
+.redes i{
+    cursor: pointer;
+}
+
 /*MEDIA QUERIES/*
 /*Pantalla Tablet*/
 
@@ -331,7 +335,7 @@ footer p {
     display: none;
   }
 
- /*footer*/
+  /*footer*/
   footer {
     display: flex;
     flex-direction: column;
@@ -356,7 +360,6 @@ footer p {
   }
 
   nav {
- 
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
